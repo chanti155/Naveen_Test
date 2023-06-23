@@ -1,3 +1,4 @@
+First Story
 company
   sales team--- grp of indivuals who se a coms offering to leads  and customer
   marketing team---coordinating and producing all the material for the business
