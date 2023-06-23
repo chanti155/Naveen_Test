@@ -1,0 +1,101 @@
+company
+  sales team--- grp of indivuals who se a coms offering to leads  and customer
+  marketing team---coordinating and producing all the material for the business
+  service team---service administrtion, networking, support , security developer etc...,
+  R&D
+
+
+   company
+
+Admin  --- 
+developer
+lighting
+
+aaplication launcher
+setp page- feature config
+termination
+app name 
+nagivation itmes(tab)
+home setup and object setup
+
+sales force:
+wt ever data we have we need to organised in a proper manner.
+
+* Objects
+
+ using object we can store the data .
+data base tables are same as table.wt ever the information we are gathering from customer is called  object
+
+
+* top headers in the sheet is called feild 
+
+* one row is called one record. 
+
+* salesfroce sm standart obejct called label
+seup->object manager->standard object given by sales force
+
+
+sales team object- 
+
+ --lead object-raw data/ information of propspects/customer who are instrested in purchasing your product.
+B2B - BUSINESS TO BUSINESS  raw to manfucataring product
+B2C-- BUSINESS TO CUSTOMER  prodct to sale
+-- Account object--we  will store the details of cmpany
+---contact object--we  will store the details of members  of company
+---opportunity obj--to create a deal with the customer
+
+EXAMPLE:-
+ABC CO - manufacturing bulbs
+hyd distriutor-
+mumbai distributor-
+
+sales A-Planning for the banglore distribution
+
+       stores the data in Lead-co name/ co address/ person name , currently/ how do they come to know abt our company etc.,
+
+        lead in to account-- co name/addrss/registration number.
+
+                 contact--key person details/contact#/multiple contact members in the company.
+
+         opprtunities--how many products /price/ expected closure date
+
+how to create a custom object
+
+create->label(object name) ->need to create a tab()-> record name label and forma
+
+autonumber(A-0001, A-0002 value will inc as object increases)&text(sales team has to update mannuallay) it will be possible only during object creation.
+
+How to create a tab
+
+home->tabs->custom obj tab->new->obejct(applicant)->tabstyle-(ppl)->new-> applicant name->save
+
+
+
+  marketing- >campaigns, campaign members, contacts, leads
+
+  service team-> case,account, contact, email msgs.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
