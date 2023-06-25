@@ -1,2 +1,8 @@
 Linux File Permissions - use sudo chmod u+rwx,g+rwx,o+rwx filename
 TimeZones Settings     - use sudo timedatectl set-timezone timezonename (ex : Asia\Kolkata, Europe\Andorra)
+Create a linux user with non-interactive shell - use sudo useradd "username" -s /sbin/nologin
+Create a linux user with expiry date - use sudo useradd "username" -e "expiry date"
+
+To check the usercreated or not -- cat /etc/passwd
+To check the expiry date of user - chage -l "username"
+
