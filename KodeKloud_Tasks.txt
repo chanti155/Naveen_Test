@@ -1,0 +1,2 @@
+Linux File Permissions - use sudo chmod u+rwx,g+rwx,o+rwx filename
+TimeZones Settings     - use sudo timedatectl set-timezone timezonename (ex : Asia\Kolkata, Europe\Andorra)
