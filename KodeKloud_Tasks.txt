@@ -6,3 +6,23 @@ Create a linux user with expiry date - use sudo useradd "username" -e "expiry da
 To check the usercreated or not -- cat /etc/passwd
 To check the expiry date of user - chage -l "username"
 
+Disable root ssh login -- edit /etc/ssh/sshd_config file and restart sshd.service using systemctl
+
+Linux user without home : use userad USERNAME -M
+
+Linux banner : banner for ssh - vi /etc/ssh/sshd_config  under this file edit #banner none to banner file-location and save the file.
+                  restart the sshd.service using systemctl
+
+
+Linux Collaborative Directories : can create a directory/directory using -p "mkdir -p /devops/data" 
+                                   After creating, assign permission using "chmod" for u,g,o accordingly
+ 				  "chgrp" changes group ownership of directory | "chown" uses ownership of files/directories
+
+MariaDB Troubleshooting : yum remove mariadb | yum install mariadb mariadb-server resolved the issue while service is not getting started
+
+Linux remote copy : scp naveen@xyzserver.host.com:/home/naveen/required_file /home/this_machine_folder/needed_here
+
+DNS Troubleshooting : edit the entried in file /etc/resolve.config
+
+Linux postfix Troubleshooting : checked the "systemctl status postfix" and edit the entry in /etc/postfix/main.cf file which resolved.
+
